@@ -1,0 +1,15 @@
+baseURL = "/"
+title = "The Cathay School"
+
+contentdir          = "content"
+publishdir          = "public"
+enableRobotsTXT     = true
+canonifyurls        = true
+
+# Main Menu Configuration
+
+[[menu.main]]
+name                   = "Tour"
+weight                 = 1
+identifier             = "tour"
+url                    = "/tour/"

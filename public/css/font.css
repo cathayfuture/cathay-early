@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Futura";
+  font-weight: bold;
+  src: url("/font/Futura-Bold.eot?") format("eot"), url("/font/Futura-Bold.woff2") format("woff2"), url("/font/Futura-Bold.woff") format("woff"), url("/font/Futura-Bold.ttf") format("truetype"), url("/font/Futura-Bold.svg#Futura") format("svg");
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("/font/Futura-Book.eot?") format("eot"), url("/font/Futura-Book.woff2") format("woff2"), url("/font/Futura-Book.woff") format("woff"), url("/font/Futura-Book.ttf") format("truetype"), url("/font/Futura-Book.svg#Futura") format("svg");
+}
+
+* {
+  font-family: "Futura" !important;
+}
