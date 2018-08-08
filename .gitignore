@@ -105,10 +105,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-
-### https://raw.github.com/github/gitignore/5a7a3cddf3fcecb926a84019f58abf0c43730a61/Global/GPG.gitignore
-
 secring.*
 
-
-
+public/
