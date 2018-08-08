@@ -9,6 +9,12 @@ canonifyurls        = true
 # Main Menu Configuration
 
 [[menu.main]]
+name                   = "About"
+weight                 = 1
+identifier             = "about"
+url                    = "/about/"
+
+[[menu.main]]
 name                   = "Tour"
 weight                 = 1
 identifier             = "tour"

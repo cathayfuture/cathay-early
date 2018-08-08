@@ -20,6 +20,14 @@ h6 {
   letter-spacing: 0.1rem;
 }
 
+.btn-lg {
+  text-transform: uppercase;
+  padding: 1.0rem 1.8rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
 .bg-black {
   background-color: #000 !important;
 }
@@ -86,7 +94,7 @@ header.masthead .masthead-content img.logo {
 }
 
 header.masthead .bg-circle {
-  z-index: 0;
+  z-index: -1;
   position: absolute;
   border-radius: 100%;
   background: linear-gradient(0deg, #2892D7 0%, #6DAEDB 100%);
@@ -157,7 +165,9 @@ header.masthead.mini .masthead-content .masthead-subheading {
   border-color: #2892D7;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
   background-color: #2075ac !important;
   border-color: #2075ac !important;
 }
@@ -171,7 +181,9 @@ header.masthead.mini .masthead-content .masthead-subheading {
   border-color: #6DAEDB;
 }
 
-.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
   background-color: #4497d1 !important;
   border-color: #4497d1 !important;
 }
@@ -184,11 +196,59 @@ header.masthead.mini .masthead-content .masthead-subheading {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 12px;
 }
 
+.btn-light {
+  color: #4497d1 !important;
+}
+
 .content {
-  padding-top: 2rem!important;
-  padding-bottom: 2rem!important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
 }
 
 form .row {
   margin-bottom: 25px;
+}
+
+section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#particles-js canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+h1.stat {
+  margin-bottom: 0;
+  color: #6DAEDB;
+}
+
+.center-quote {
+  margin: 2rem 8.5rem 2rem 8.5rem;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 992px) {
+  .center-quote {
+    margin: 2rem 0 2rem 0;
+    font-size: 1.2rem;
+  }
+}
+
+.title-block.left {
+  border-left: solid 5px #6DAEDB;
+}
+
+.title-block.right {
+  border-right: solid 5px #6DAEDB;
+}
+
+.avatar {
+  width: 10rem;
+  margin: 5px;
 }
