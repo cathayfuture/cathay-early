@@ -183,3 +183,12 @@ header.masthead.mini .masthead-content .masthead-subheading {
 .btn {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 12px;
 }
+
+.content {
+  padding-top: 2rem!important;
+  padding-bottom: 2rem!important;
+}
+
+form .row {
+  margin-bottom: 25px;
+}
