@@ -15,7 +15,7 @@ Online registration is available for those who have toured our school, we encour
 3.	Register online or in our center
 
 <div class="text-center">
-    <a class="btn btn-lg btn-primary" href="http://shop.cathayfutureus.com/product/early-education-tutitions/">Enroll Now</a>
+    <a class="btn btn-lg btn-primary" href="https://shop.cathayfutureus.com/product/early-education-tutitions/">Enroll Now</a>
     <br />
     <span class="hint" style="font-size: .8rem"><i class="material-icons" style="font-size: 1rem; vertical-align: center;">lock</i> We use industry-standard encryption to secure your transaction.</span>
 </div>
