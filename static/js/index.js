@@ -10,4 +10,7 @@ particlesJS.load('particles-js', '/js/particles.config.json', function () {
 /**
  * https://github.com/istvan-ujjmeszaros/bootstrap-autohidingnavbar
  */
-$(".navbar.fixed-top").autoHidingNavbar();
+$(".navbar.fixed-top").autoHidingNavbar({
+    "showOnUpscroll": false,
+    "showOnBottom": false
+});
