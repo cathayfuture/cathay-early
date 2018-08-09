@@ -1,16 +1,10 @@
 {{ partial "header.html" . }}
-<header class="masthead text-center text-white">
+<header class="masthead mini text-center text-white">
     <div class="masthead-content">
         <div class="container">
+            <img src="{{ .Params.img }}" width="150" style="margin-bottom: 15px" />
             <h1 class="masthead-heading mb-0" data-aos="fade-in">{{ .Title }}</h1>
             <h2 class="masthead-subheading mb-0" data-aos="fade-in" data-aos-delay="200">{{ .Params.Subtitle }}</h2>
-
-            <!-- Call to Action button -->
-            {{ if and .Params.cta .Params.ctalink }}
-            <div class="masthead-button-group" data-aos="fade-up" data-aos-delay="300">
-                <a href="{{ .Params.ctalink }}" class="btn btn-primary btn-xl rounded-pill mt-5">{{ .Params.cta }}</a>
-            </div>
-            {{ end }}
         </div>
     </div>
     <div id="particles-js"></div>

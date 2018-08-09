@@ -16,6 +16,12 @@ url                    = "/about/"
 
 [[menu.main]]
 name                   = "Tour"
-weight                 = 1
+weight                 = 2
 identifier             = "tour"
 url                    = "/tour/"
+
+[[menu.main]]
+name                   = "Enroll"
+weight                 = 3
+identifier             = "enroll"
+url                    = "/enroll/"

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato';
+  font-family: 'Futura';
 }
 
 h1,
@@ -8,7 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran';
+  font-family: 'Futura';
   font-weight: 800 !important;
 }
 
@@ -163,6 +163,7 @@ header.masthead.mini .masthead-content .masthead-subheading {
 .btn-primary {
   background-color: #2892D7;
   border-color: #2892D7;
+  color: white!important;
 }
 
 .btn-primary:active,
@@ -249,6 +250,19 @@ h1.stat {
 }
 
 .avatar {
-  width: 10rem;
+  width: 7.5rem;
   margin: 5px;
+}
+
+.markdown {
+  font-size: 1.3rem;
+}
+
+footer {
+  color: #1e1e1e;
+}
+
+.hint {
+  color: lightslategray;
+  line-height: .8!important;
 }

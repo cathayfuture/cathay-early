@@ -6,7 +6,7 @@ subtitle: Take a tour around our campus! It's free.
 
 The information below will be processed by our Preschool Director, and we will use your contact information to better customize your tour. 
 
-<form>
+<form style="font-size: 16px">
     <div class="row">
         <div class="col">
             Your Name
