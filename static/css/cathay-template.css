@@ -23,6 +23,14 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.1rem;
 }
 
+.btn-sm {
+  text-transform: uppercase;
+  padding: .8rem 1.4rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
 .bg-black {
   background-color: #000 !important;
 }
@@ -134,9 +142,6 @@ header.masthead .bg-circle-4 {
   header.masthead .masthead-content .masthead-subheading {
     font-size: 3rem;
     font-weight: normal !important;
-  }
-  nav li.dropdown:hover > .dropdown-menu {
-    display: block;
   }
 }
 
@@ -252,6 +257,11 @@ h1.stat {
   font-size: 1.3rem;
 }
 
+.markdown strong {
+  font-weight: 600;
+  color: #6DAEDB;
+}
+
 footer {
   color: #1e1e1e;
 }
@@ -283,16 +293,24 @@ a, img {
 }
 
 .dropdown-menu {
-  background-color: transparent;
+  margin-left: 1rem!important;
+  background-color: #fff;
   border: none!important;
   padding: 0!important;
-  margin: 0!important;
 }
 
 .nav-link.dropdown-item {
-  padding-left: 1.5rem!important;
+  color: #6DAEDB!important;
 }
 
 .nav-link.dropdown-item:hover {
   background-color: transparent;
+}
+
+p {
+  line-height: 1.7;
+}
+
+.markdown ul {
+  line-height: 2;
 }

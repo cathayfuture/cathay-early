@@ -20,10 +20,17 @@ weight                 = 2
 identifier             = "about"
 
 [[menu.main]]
-name                   = "Background"
+name                   = "Welcome"
 weight                 = 1
+identifier             = "welcome"
+url                    = "/about/welcome"
+parent                 = "about"
+
+[[menu.main]]
+name                   = "Background"
+weight                 = 2
 identifier             = "background"
-url                    = "/about/"
+url                    = "/about/background"
 parent                 = "about"
 
 [[menu.main]]
@@ -32,15 +39,22 @@ weight                 = 3
 identifier             = "curriculum"
 
 [[menu.main]]
-name                   = "Preschool"
+name                   = "About"
 weight                 = 1
+identifier             = "curriculum-about"
+url                    = "/curriculum/about/"
+parent                 = "curriculum"
+
+[[menu.main]]
+name                   = "Preschool"
+weight                 = 2
 identifier             = "preschool"
 url                    = "/curriculum/preschool/"
 parent                 = "curriculum"
 
 [[menu.main]]
 name                   = "Pre-K"
-weight                 = 2
+weight                 = 3
 identifier             = "prek"
 url                    = "/curriculum/pre-k/"
 parent                 = "curriculum"
@@ -82,3 +96,22 @@ weight                 = 1
 identifier             = "events"
 url                    = "/calendar/events/"
 parent                 = "calendar"
+
+[[menu.main]]
+name                   = "Contact"
+weight                 = 6
+identifier             = "contact"
+
+[[menu.main]]
+name                   = "Location"
+weight                 = 1
+identifier             = "location"
+url                    = "/contact/location/"
+parent                 = "contact"
+
+[[menu.main]]
+name                   = "Support"
+weight                 = 2
+identifier             = "support"
+url                    = "https://shop.cathayfutureus.com/contact-support"
+parent                 = "contact"
