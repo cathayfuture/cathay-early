@@ -82,8 +82,11 @@ The information below will be processed by our Preschool Director, and we will u
             <label class="checkbox-inline">
                 <input type="checkbox" name="time-of-choice" value="4:30-5:15 p.m.">  4:30 – 5:15 p.m.</label>&ensp;
         </div>
+
+        <div class="col">
+            <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+        </div>
     </div>
 
-    <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy">
     <button type="submit" class="btn btn-primary btn-lg">Submit</button>
 </form>
