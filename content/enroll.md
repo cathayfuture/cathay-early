@@ -17,9 +17,9 @@ Online registration is available for those who have toured our school, we encour
 <div class="text-center">
     <a class="btn btn-lg btn-primary" href="https://shop.cathayfutureus.com/product/early-education-tutitions/">Enroll Now</a>
     <br />
-    <span class="hint" style="font-size: .8rem"><i class="material-icons" style="font-size: 1rem; vertical-align: center;">lock</i> We use industry-standard encryption to secure your transaction.</span>
+    <span class="hint" style="font-size: .8rem"><i class="fas fa-lock" style="font-size: .8rem; vertical-align: center;"></i> We use industry-standard encryption to secure your transaction.</span>
 </div>
 
 <br />
 ##### Non-discrimination Statement
-_At the Cathay School, we admit students of any race, color, national, and ethnic origin and accords them all the rights, privileges, programs, and activities generally accorded or made available to students at the school. We never discriminate on the basis of race, color, sexual orientation, national and ethnic origin in the administration of its educational policies, admission policies, tuition assistance, or any other school-administered programs._
+_At the Cathay School, we admit students of any race, nationality, and ethnic origin and accords them all the rights, privileges, programs, and activities generally accorded or made available to students at the school. We never discriminate on the basis of race, sexual orientation, national and ethnic origin in the administration of its educational policies, admission policies, tuition assistance, or any other school-administered programs._

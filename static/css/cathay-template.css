@@ -366,7 +366,25 @@ p {
   }
 }
 
-
 .grecaptcha-badge {
   display: none;
+}
+
+footer p.desc {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+footer .social-icons a {
+  margin-right: 1.5rem;
+  font-size: 1.5rem;
+}
+
+a { 
+  color: #6DAEDB;
+  text-decoration: none!important;
+}
+
+.sec-about {
+  margin-bottom: 0;
 }

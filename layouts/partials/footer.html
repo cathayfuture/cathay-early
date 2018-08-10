@@ -1,7 +1,41 @@
 <!-- Footer -->
 <footer class="py-5">
     <div class="container">
-        <p class="m-0 text-center small">Content Copyright &copy; The Cathay School 2018</p>
+        <div class="row">
+            <div class="col-6 text-right">
+                <p style="font-size: 1.1rem"><i>The Future of Educational Excellence</i></p>
+            </div>
+
+            <div class="col-6 text-left">
+                <span class="social-icons">
+                    <a href="https://instagram.com/{{ .Site.Params.instagram }}">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/{{ .Site.Params.twitter }}">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://facebook.com/{{ .Site.Params.facebook }}">
+                        <i class="fab fa-facebook"></i>
+                    </a> 
+                    <a href="mailto:{{ .Site.Params.email }}">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-6 text-right">
+                    <p class="desc">The Cathay School</p>
+                </div>
+    
+                <div class="col-6 text-left">
+                    <p>9400 Key West Ave.<br />Rockville, MD 20850</p>
+                    <p>Call us: <a href="tel:{{.Site.Params.phone }}">{{ .Site.Params.phone }}</a></p>
+
+                    <p class="hint" style="font-size: 0.8rem">© 2018 The Cathay School</p>
+                </div>
+            </div>
     </div>
     <!-- /.container -->
 </footer>

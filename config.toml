@@ -6,6 +6,16 @@ publishdir          = "public"
 enableRobotsTXT     = true
 canonifyurls        = true
 
+# Custom Parameters
+[Params]
+    # Social Media
+    instagram       = "cathay_future"
+    twitter         = "cathayfuture"
+    facebook        = "CathayFuture"
+
+    email           = "info@cathayfutureus.com"
+    phone           = "1-301-978-3918"
+
 # Main Menu Configuration
 
 [[menu.main]]
