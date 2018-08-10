@@ -12,11 +12,12 @@
             <ul class="navbar-nav ml-auto">
                 {{ $currentPage := . }} {{ range .Site.Menus.main }} {{ if .HasChildren }}
                 <li class="nav-item dropdown{{ if $currentPage.HasMenuCurrent " main " . }} active{{ end }}">
-                    <a class="nav-link dropdown-toggle" id="navdrop-{{ .Name }}" href="#" role="button">
+                    <a class="nav-link dropdown-toggle" id="navdrop-{{ .Name }}" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
                         {{ .Pre }}
                         <span>{{ .Name }}</span>
                     </a>
-                    <div class="dropdown-menu">
+                    <div class="dropdown-menu" aria-labelledby="navdrop-{{ .Name }}">
                         {{ range .Children }}
                             <a class="nav-link dropdown-item" href="{{ .URL }}">▸ {{ .Name }}</a>
                         {{ end }}
