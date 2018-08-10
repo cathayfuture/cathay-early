@@ -64,7 +64,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #6DAEDB 0%, #2892D7 100%);
+  background: linear-gradient(-64deg, #25B775 0%, #6DAEDB 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -94,13 +94,6 @@ header.masthead .masthead-content .masthead-subheading .emphasis {
 header.masthead .masthead-content img.logo {
   width: 30%;
   margin-bottom: 1em;
-}
-
-header.masthead .bg-circle {
-  z-index: -1;
-  position: absolute;
-  border-radius: 100%;
-  background: linear-gradient(0deg, #2892D7 0%, #6DAEDB 100%);
 }
 
 header.masthead .bg-circle-1 {
@@ -183,6 +176,12 @@ header.masthead.mini .masthead-content .masthead-subheading {
   border-color: #6DAEDB;
 }
 
+.btn-alt {
+  background-color: #25B775;
+  border-color: #25B775;
+  color: white!important;
+}
+
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
   background-color: #4497d1 !important;
   border-color: #4497d1 !important;
@@ -198,6 +197,11 @@ header.masthead.mini .masthead-content .masthead-subheading {
 
 .btn-light {
   color: #4497d1 !important;
+}
+
+.masthead-content .btn-light {
+  color: #4497d1 !important;
+  background-color: rgba(255,255,255,.9);
 }
 
 .content {
@@ -387,4 +391,12 @@ a {
 
 .sec-about {
   margin-bottom: 0;
+}
+
+.feature-text {
+  font-size: 1.25rem;
+}
+
+.feature img {
+  border-radius: 5px;
 }

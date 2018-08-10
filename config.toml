@@ -89,6 +89,13 @@ url                    = "/enroll/"
 parent                 = "admission"
 
 [[menu.main]]
+name                   = "Tuition"
+weight                 = 3
+identifier             = "tuition"
+url                    = "/enroll/tuition"
+parent                 = "admission"
+
+[[menu.main]]
 name                   = "Calendar"
 weight                 = 5
 identifier             = "calendar"

@@ -70,17 +70,17 @@ The information below will be processed by our Preschool Director, and we will u
         <div class="col">
             Please indicate which times of the day works best for you to come visit our school<br />
             <label class="checkbox-inline">
-                <input type="checkbox" name="time-of-choice" value="9-9:45 a.m.">  9 – 9:45 a.m.</label>&ensp;
+                <input type="checkbox" name="time-of-choice" value="9-9:45 am">  9 – 9:45 am</label>&ensp;
             <label class="checkbox-inline">
-                <input type="checkbox" name="time-of-choice" value="9:45-10:30 a.m.">  9:45 – 10:30 a.m.</label>&ensp;
+                <input type="checkbox" name="time-of-choice" value="9:45-10:30 am">  9:45 – 10:30 am</label>&ensp;
             <label class="checkbox-inline">
-                <input type="checkbox" name="time-of-choice" value="10:30-11:15 a.m.">  10:30 – 11:15 a.m.</label><br />
+                <input type="checkbox" name="time-of-choice" value="10:30-11:15 am">  10:30 – 11:15 am</label><br />
             <label class="checkbox-inline">
-                <input type="checkbox" name="time-of-choice" value="3:00-3:45 p.m.">  3:00 – 3:45 p.m.</label>&ensp;
+                <input type="checkbox" name="time-of-choice" value="3:00-3:45 pm">  3:00 – 3:45 pm</label>&ensp;
             <label class="checkbox-inline">
-                <input type="checkbox" name="time-of-choice" value="3:45-4:30 p.m.">  3:45 – 4:30 p.m.</label>&ensp;
+                <input type="checkbox" name="time-of-choice" value="3:45-4:30 pm">  3:45 – 4:30 pm</label>&ensp;
             <label class="checkbox-inline">
-                <input type="checkbox" name="time-of-choice" value="4:30-5:15 p.m.">  4:30 – 5:15 p.m.</label>&ensp;
+                <input type="checkbox" name="time-of-choice" value="4:30-5:15 pm">  4:30 – 5:15 pm</label>&ensp;
         </div>
 
         <div class="col">
