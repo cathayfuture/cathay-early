@@ -11,13 +11,8 @@
 {{ end }}
 
 <!-- Icon -->
-<link rel="shortcut icon"
-{{ if .Site.Params.faviconfile }}
-    href="/{{ .Site.Params.faviconfile }}"
-{{ else }}
-    href="/img/favicon.ico"
-{{ end }}
->
+<link rel="shortcut icon" {{ if .Site.Params.faviconfile }} href="/{{ .Site.Params.faviconfile }}" {{ else }} href="/img/favicon.ico"
+    {{ end }}>
 
 <!-- Bootstrap core CSS -->
 <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,8 +25,20 @@
 <!-- Animation Library -->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-<!-- Loading Bar -->
-<link rel="stylesheet" href="https://unpkg.com/nprogress@0.2.0/nprogress.css" />
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/solid.css" integrity="sha384-wnAC7ln+XN0UKdcPvJvtqIH3jOjs9pnKnq9qX68ImXvOGz2JuFoEiCjT8jyZQX2z"
+    crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/brands.css" integrity="sha384-nT8r1Kzllf71iZl81CdFzObMsaLOhqBU1JD2+XoAALbdtWaXDOlWOZTR4v1ktjPE"
+    crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6"
+    crossorigin="anonymous">
 
-<!-- Google Material Icons -->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Handle case where JavaScript is disabled -->
+<noscript>
+    <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+    </style>
+</noscript>
