@@ -9,19 +9,76 @@ canonifyurls        = true
 # Main Menu Configuration
 
 [[menu.main]]
-name                   = "About"
+name                   = "Home"
 weight                 = 1
+identifier             = "home"
+url                    = "/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = 2
 identifier             = "about"
+
+[[menu.main]]
+name                   = "Background"
+weight                 = 1
+identifier             = "background"
 url                    = "/about/"
+parent                 = "about"
+
+[[menu.main]]
+name                   = "Curriculum"
+weight                 = 3
+identifier             = "curriculum"
+
+[[menu.main]]
+name                   = "Preschool"
+weight                 = 1
+identifier             = "preschool"
+url                    = "/curriculum/preschool/"
+parent                 = "curriculum"
+
+[[menu.main]]
+name                   = "Pre-K"
+weight                 = 2
+identifier             = "prek"
+url                    = "/curriculum/pre-k/"
+parent                 = "curriculum"
+
+[[menu.main]]
+name                   = "Admission"
+weight                 = 4
+identifier             = "admission"
 
 [[menu.main]]
 name                   = "Tour"
-weight                 = 2
+weight                 = 1
 identifier             = "tour"
 url                    = "/tour/"
+parent                 = "admission"
 
 [[menu.main]]
 name                   = "Enroll"
-weight                 = 3
+weight                 = 2
 identifier             = "enroll"
 url                    = "/enroll/"
+parent                 = "admission"
+
+[[menu.main]]
+name                   = "Calendar"
+weight                 = 5
+identifier             = "calendar"
+
+[[menu.main]]
+name                   = "Closings"
+weight                 = 1
+identifier             = "closings"
+url                    = "/calendar/closings/"
+parent                 = "calendar"
+
+[[menu.main]]
+name                   = "Events"
+weight                 = 1
+identifier             = "events"
+url                    = "/calendar/events/"
+parent                 = "calendar"

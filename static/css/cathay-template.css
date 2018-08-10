@@ -135,6 +135,9 @@ header.masthead .bg-circle-4 {
     font-size: 3rem;
     font-weight: normal !important;
   }
+  nav li.dropdown:hover > .dropdown-menu {
+    display: block;
+  }
 }
 
 header.masthead.mini {
@@ -273,4 +276,23 @@ a, img {
   -moz-user-drag: none;
   -o-user-drag: none;
   user-drag: none;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  border: none!important;
+  padding: 0!important;
+  margin: 0!important;
+}
+
+.nav-link.dropdown-item {
+  padding-left: 1.5rem!important;
+}
+
+.nav-link.dropdown-item:hover {
+  background-color: transparent;
 }
