@@ -1,5 +1,6 @@
 body {
   font-family: 'Futura';
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -152,47 +153,27 @@ header.masthead.mini .masthead-content .masthead-subheading {
   font-weight: normal !important;
 }
 
-.bg-primary {
-  background-color: #2892D7 !important;
-}
-
 .btn-primary {
-  background-color: #2892D7;
-  border-color: #2892D7;
+  background: linear-gradient(-64deg, #25B775 0%, #6DAEDB 100%) !important;
   color: white!important;
-}
-
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #2075ac !important;
-  border-color: #2075ac !important;
-}
-
-.btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(40, 146, 215, 0.5);
 }
 
 .btn-secondary {
   background-color: #6DAEDB;
-  border-color: #6DAEDB;
 }
 
 .btn-alt {
   background-color: #25B775;
-  border-color: #25B775;
   color: white!important;
-}
-
-.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #4497d1 !important;
-  border-color: #4497d1 !important;
-}
-
-.btn-secondary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(109, 174, 219, 0.5);
 }
 
 .btn {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 12px;
+  border: none!important;
+}
+
+.btn:active, .btn:focus, .btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 12px;
 }
 
 .btn-light {
@@ -406,4 +387,8 @@ a {
 
 .feature {
   background-color: transparent;
+}
+
+.navbar .navbar-brand img.logo {
+  width: 150px;
 }
