@@ -196,10 +196,13 @@ header.masthead.mini .masthead-content .masthead-subheading {
 }
 
 .btn-light {
-  color: #4497d1 !important;
+  background: linear-gradient(0deg, #25B775 0%, #6DAEDB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: none!important;
 }
 
-.masthead-content .btn-light {
+.masthead-content .btn-white {
   color: #4497d1 !important;
   background-color: rgba(255,255,255,.9);
 }
@@ -233,13 +236,13 @@ h1.stat {
 }
 
 .center-quote {
-  margin: 2rem 8.5rem 2rem 8.5rem;
-  font-size: 1.4rem;
+  color: #606e77;
+  width: 90%;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .center-quote {
-    margin: 2rem 0 2rem 0;
+    width: 50%;
     font-size: 1.2rem;
   }
 }
@@ -399,4 +402,8 @@ a {
 
 .feature img {
   border-radius: 5px;
+}
+
+.feature {
+  background-color: transparent;
 }
