@@ -64,7 +64,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(-64deg, #25B775 0%, #6DAEDB 100%);
+  background: linear-gradient(0deg, #25B775 0%, #6DAEDB 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
