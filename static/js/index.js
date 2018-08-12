@@ -15,11 +15,6 @@ $(function () {
 	});
 });
 
-/* Lazyload Configuration */
-var myLazyLoad = new LazyLoad({
-	elements_selector: "img"
-});
-
 var loadDeferredStyles = function () {
 	var addStylesNode = document.getElementById('deferred-styles');
 	var replacement = document.createElement('div');
