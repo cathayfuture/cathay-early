@@ -2,9 +2,12 @@ baseURL = "/"
 title = "The Cathay School"
 
 contentdir          = "content"
+staticdir           = "static"
 publishdir          = "public"
 enableRobotsTXT     = true
 canonifyurls        = true
+stepAnalysis        = true
+watch               = true
 
 # Custom Parameters
 [Params]
@@ -18,6 +21,11 @@ canonifyurls        = true
 
     faviconfile     = "img/logo-icon.png"
     analytics       = "UA-123751290-1"
+
+[sitemap]
+    changefreq = "monthly"
+    filename = "sitemap.xml"
+    priority = 0.5
 
 # Main Menu Configuration
 
