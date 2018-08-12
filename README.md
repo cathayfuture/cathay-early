@@ -28,6 +28,8 @@ really helpful to me during the process of designing the site. Thanks a lot.
 
 ⭐️ Zane D.
 
+⭐️ Amy C.
+
 ## ⚙️ Credits
 
 The following sets forth attribution notices for third party open source software that may be 
