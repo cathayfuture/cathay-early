@@ -17,6 +17,7 @@ canonifyurls        = true
     phone           = "1-301-978-3918"
 
     faviconfile     = "img/logo-icon.png"
+    analytics       = "UA-123751290-1"
 
 # Main Menu Configuration
 
