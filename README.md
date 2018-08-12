@@ -26,6 +26,8 @@ really helpful to me during the process of designing the site. Thanks a lot.
 
 ⭐️ Theo B.
 
+⭐️ Zane D.
+
 ## ⚙️ Credits
 
 The following sets forth attribution notices for third party open source software that may be 
@@ -39,7 +41,6 @@ contained in portions of this website. I thank the open source community for its
 * particles.js (MIT) - https://github.com/VincentGarreau/particles.js/
 * Bootstrap Auto-Hiding Navbar (Apache 2.0) - https://github.com/istvan-ujjmeszaros/bootstrap-autohidingnavbar
 * Sisyphus (MIT) - https://github.com/simsalabim/sisyphus/
-* LazyLoad (MIT) - https://github.com/verlok/lazyload
 
 ## ⚖️ License
 
