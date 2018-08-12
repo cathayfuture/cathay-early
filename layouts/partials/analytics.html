@@ -1,0 +1,7 @@
+<!-- Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.analytics }}"></script>
+<script>
+    /* Google Analytics Initialization & FullStory */
+    function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","{{ .Site.Params.analytics }}"),window._fs_debug=!1,window._fs_host="fullstory.com",window._fs_org="E07XP",window._fs_namespace="FS",function(n,e,t,o,s,c,a,i){t in n?n.console&&n.console.log&&n.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'):((a=n[t]=function(n,e){a.q?a.q.push([n,e]):a._api(n,e)}).q=[],(c=e.createElement(o)).async=1,c.src="https://"+_fs_host+"/s/fs.js",(i=e.getElementsByTagName(o)[0]).parentNode.insertBefore(c,i),a.identify=function(n,e){a(s,{uid:n}),e&&a(s,e)},a.setUserVars=function(n){a(s,n)},a.event=function(n,e){a("event",{n:n,p:e})},a.shutdown=function(){a("rec",!1)},a.restart=function(){a("rec",!0)},a.consent=function(n){a("consent",!arguments.length||n)},a.identifyAccount=function(n,e){c="account",(e=e||{}).acctId=n,a(c,e)},a.clearUserCookie=function(){})}(window,document,window._fs_namespace,"script","user");
+</script>
