@@ -16,6 +16,8 @@ canonifyurls        = true
     email           = "info@cathayfutureus.com"
     phone           = "1-301-978-3918"
 
+    faviconfile     = "img/logo-icon.png"
+
 # Main Menu Configuration
 
 [[menu.main]]
