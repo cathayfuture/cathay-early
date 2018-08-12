@@ -57,7 +57,7 @@ processed by our Preschool Director, and we will use your contact information to
             <input type="text" class="form-control" name="relationship" placeholder="Mother" required>
         </div>
         <div class="col">
-            Please indicate with days work best for you to schedule a tour
+            Please indicate which day works best for you to schedule a tour
             <br />
             <select name="day-of-choice" class="form-control">
                 <option value="Monday">Monday</option>
@@ -71,7 +71,7 @@ processed by our Preschool Director, and we will use your contact information to
 
     <div class="row">
         <div class="col">
-            Please indicate which times of the day works best for you to come visit our school
+            Please indicate which time of the day works best for you to come visit us
             <br />
             <select name="time-of-choice" class="form-control">
                 <option value="9:00–9:45 am">9:00 – 9:45 am</option>
