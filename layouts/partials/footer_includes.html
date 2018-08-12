@@ -2,8 +2,44 @@
 <script src="/vendor/jquery/jquery.min.js"></script>
 <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<script src="https://usebasin.com/f/884f5d0234a2/ahoy.js" async defer></script>
 <script src="/js/particles.min.js" async defer></script>
 <script src="/js/navhide.min.js" async defer></script>
 <script src="/js/index.js" async defer></script>
+
+<!-- Form plugins -->
+{{ if eq .Params.isForm true }}
+<!-- Autosave -->
+<script src="/js/sisyphus.min.js" async defer></script>
+<!-- Recaptcha -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- Form Analytics -->
+<script src="https://usebasin.com/f/884f5d0234a2/ahoy.js" async defer></script>
+<!-- Initialize Form Autosave -->
+<script>
+    $(function () {
+        $("#tour-form").sisyphus({
+            timeout: 10,
+            onSave: function () {
+                $("#form-status").html(
+                    "<span style=\"color:green\"><i class=\"fas fa-check\"></i>&ensp;Your information has been saved to your browser</span>"
+                )
+            },
+            onRestore: function () {
+                $("#form-status").html(
+                    "<span style=\"color:green\"><i class=\"fas fa-undo-alt\"></i>&ensp;Your information has been recovered from your browser</span>"
+                )
+            }
+        });
+    });
+</script>
+{{ end }}
+
+<!-- Image Lazyloading -->
+<script>
+    window.lazyLoadOptions = {
+        elements_selector: "img"
+    };
+</script>
+
+<!-- Download the script and execute it after lazyLoadOptions is defined -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.15.0/lazyload.min.js" async></script>
