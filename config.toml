@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://early.cathayfutureus.com"
 title = "The Cathay School"
 
 contentdir          = "content"
