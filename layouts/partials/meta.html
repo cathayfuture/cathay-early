@@ -1,2 +1,39 @@
 <meta charset="utf-8">
+<title>
+    {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+    {{ if eq $url "/" }}
+        {{ .Site.Title }}
+    {{ else }}
+        {{ if .Params.heading }} 
+            {{ .Params.heading }} 
+        {{ else }} 
+            {{ if .Title }}
+                {{ .Title }} | {{ .Site.Title }} 
+            {{ else }}
+                {{ .Site.Title }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="description" content="The Cathay School offers industry-leading early education program for young children aged 3-5. At Cathay, your little ones will experience the future of educational excellence.">
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="{{ if .Title }}{{ .Title }} | {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+<meta itemprop="description" content="The Cathay School offers industry-leading early education program for young children aged 3-5. At Cathay, your little ones will experience the future of educational excellence.">
+<meta itemprop="image" content="https://early.cathayfutureus.com/img/feature/1.jpg">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://early.cathayfutureus.com">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ if .Title }}{{ .Title }} | {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+<meta property="og:description" content="The Cathay School offers industry-leading early education program for young children aged 3-5. At Cathay, your little ones will experience the future of educational excellence.">
+<meta property="og:image" content="https://early.cathayfutureus.com/img/feature/1.jpg">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ if .Title }}{{ .Title }} | {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+<meta name="twitter:description" content="The Cathay School offers industry-leading early education program for young children aged 3-5. At Cathay, your little ones will experience the future of educational excellence.">
+<meta name="twitter:image" content="https://early.cathayfutureus.com/img/feature/1.jpg">
